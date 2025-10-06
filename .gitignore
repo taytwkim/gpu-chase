@@ -1,0 +1,64 @@
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Packaging / build ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+pip-log.txt
+
+# --- Test / coverage / tooling caches ---
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.cache/
+.hypothesis/
+.benchmarks/
+
+# --- Editors / OS junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs / local output ---
+logs/
+*.log
+output/
+
+# --- Env files / local config ---
+.env
+.env.*
+*.local
+
+# --- Credentials (avoid committing secrets) ---
+# If you store keys locally, keep them out of git:
+# (Prefer a dedicated folder pattern to avoid ignoring all JSONs.)
+credentials/
+credentials/*.json
+*.key.json
+
+# --- Node leftovers (just in case) ---
+node_modules/
