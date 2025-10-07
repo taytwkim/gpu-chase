@@ -1,0 +1,56 @@
+Iterating all regions...
+Writing result to output/regions.txt...
+
+
+Iterating all zones...
+nvidia-tesla-t4 currently available in 49 zones.
+Writing result to output/zones.txt...
+
+
+Chasing GPUs...
+GPU_TYPE: nvidia-tesla-t4, VM_TYPE: n1-standard-4
+
+Attempt 0: Creating VM in us-east1-c...
+❌ Create failed: code=ZONE_RESOURCE_POOL_EXHAUSTED
+
+
+Attempt 1: Creating VM in us-east1-d...
+✅ VM created: name=gpu-chase-us-east1-d-150850, zone=us-east1-d, vm_type=n1-standard-4
+🧹 VM deleted.
+
+
+Attempt 2: Creating VM in us-east4-c...
+❌ Create failed: code=ZONE_RESOURCE_POOL_EXHAUSTED
+
+
+Attempt 3: Creating VM in us-east4-b...
+❌ Create failed: code=ZONE_RESOURCE_POOL_EXHAUSTED
+
+
+Attempt 4: Creating VM in us-east4-a...
+❌ Create failed: code=ZONE_RESOURCE_POOL_EXHAUSTED
+
+
+Attempt 5: Creating VM in us-central1-c...
+❌ Create failed: code=ZONE_RESOURCE_POOL_EXHAUSTED
+
+
+Attempt 6: Creating VM in us-central1-a...
+❌ Create failed: code=ZONE_RESOURCE_POOL_EXHAUSTED
+
+
+Attempt 7: Creating VM in us-central1-f...
+❌ Create failed: code=ZONE_RESOURCE_POOL_EXHAUSTED
+
+
+Attempt 8: Creating VM in us-central1-b...
+❌ Create failed: code=ZONE_RESOURCE_POOL_EXHAUSTED
+
+
+Attempt 9: Creating VM in us-west1-b...
+❌ Create failed: code=ZONE_RESOURCE_POOL_EXHAUSTED
+
+
+GPU allocated in 1 zones: ['us-east1-d']
+
+Writing result to output/gpu_chase.txt...

@@ -46,7 +46,6 @@ Thumbs.db
 # --- Logs / local output ---
 logs/
 *.log
-output/
 
 # --- Env files / local config ---
 .env
