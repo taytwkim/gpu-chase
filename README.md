@@ -1,8 +1,6 @@
 # GPU Chase 
 
-## Cloud and Machine Learning Assignment 2
-
-In this assignment, we use GCP's Python SDK to launch GPU-provisioned VMs.
+Use GCP's Python SDK to launch GPU-provisioned VMs.
 
 * ***Situation***: You are working for a startup, you don’t get GCP premium support, and your company needs 1 GPU to run an urgent AI model.
 * ***Mission***: Find a zone and a GPU type that your company can use (any GPU is fine).
