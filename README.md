@@ -17,7 +17,7 @@ Use GCP's Python SDK to launch GPU-provisioned VMs.
 * `gpu_chase.txt`: table of VM launch attempts (zone, VM type, GPU type, GPU availability [Y/N], GPU allocated [Y/N], success [Y/N], error code).
 * `logs.txt`: runtime log with debug messages and detailed errors for troubleshooting.
 
-## 🚀 Setup
+## 🚀 Getting Started
 
 1. Set up Python venv
 ```bash!
