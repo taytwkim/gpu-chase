@@ -19,12 +19,12 @@ Use GCP's Python SDK to launch GPU-provisioned VMs.
 
 ## 🚀 Getting Started
 
-1. Set up Python venv
+1. Set up Python `venv`
 ```bash!
 python3 -m venv .venv
 ```
 
-2. Activate venv
+2. Activate `venv`
 ```bash!
 source .venv/bin/activate
 ```
